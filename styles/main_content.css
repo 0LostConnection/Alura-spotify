@@ -171,62 +171,61 @@
 
 /* COLOR CARDS */
 .card1 {
-  background-color: rgb(0, 100, 80);
+  background-color: rgb(12, 173, 141);
 }
 .card2 {
-  background-color: rgb(132, 0, 231);
+  background-color: rgb(211, 160, 250);
 }
 .card3 {
-  background: rgb(30, 50, 100);
+  background: rgb(109, 146, 240);
 }
 .card4 {
-  background: rgb(140, 25, 50);
+  background: rgb(235, 66, 102);
 }
 .card5 {
-  background: rgb(232, 17, 91);
+  background: rgb(0, 0, 0);
 }
 .card6 {
-  background: rgb(83, 122, 161);
+  background: rgb(236, 186, 46);
 }
 .card7 {
-  background: rgb(142, 102, 172);
+  background: rgb(152, 227, 229);
 }
 .card8 {
-  background: rgb(20, 138, 8);
+  background: rgb(137, 111, 194);
 }
 .card9 {
   background: rgb(30, 50, 100);
 }
 .card10 {
-  background: rgb(233, 20, 41);
+  background: rgb(236, 30, 50);
 }
 .card11 {
   background: rgb(80, 55, 80);
 }
 .card12 {
-  background: rgb(216, 64, 0);
+  background: rgb(249, 209, 210);
 }
 .card13 {
-  background: rgb(186, 93, 7);
+  background: rgb(96, 140, 202);
 }
 .card14 {
-  background: rgb(0, 30, 80);
+  background: rgb(175, 215, 217);
 }
 .card15 {
-  background: rgb(60, 30, 80);
+  background: rgb(249, 229, 47);
 }
 .card16 {
-  background: rgb(240, 155, 214);
+  background: rgb(152, 99, 188);
 }
 /* FIM COLOR CARDS */
 
 .offer__list-item img {
   position: absolute;
-  right: 0;
+  right: 32px;
   bottom: 0;
   height: auto;
-  width: 107px;
-  transform: rotate(25deg) translate(18%, -2%);
+  width: 158px;
 }
 
 /* CARD ARTISTA */
