@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify teste</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/vars.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main_content.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+ 
+</head>
+<body>
+    <div class="sidebar">
+        <nav class= "sidebar_navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./assets/Z-I-logo-spotify.png" alt="Logo Sopotify" />
+                </a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-home"></span>
+                                <span>Início</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>PT-BR</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./assets/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./assets/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                <div class="header__search">
+                    <img src="./assets/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Fazer parte dos amigos de Hello Kitty</p>
+            <p class="disclaimer-premium__subtitle">
+                Venha fazer amizade com Hello Kitty e seus amigos, você poderá assar pães com o Cinamonroll, 
+                fazer invenções com Pompompurim, brincar com My Mellody, e irritar Badtz Maru
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Fazer amizade</button>
+        </div>
+    </footer>
+
+                <!-- PLAYLIST -->
+                <div class="playlist-container">
+                    <div id="result-playlists">
+                        <div class="playlist">
+                            <h1 id="greeting">Bem vindo(a)</h1>
+                            <h2 class="session">Navegar por esse novo mundo</h2>
+                        </div>
+    
+                        <!-- LIST DE CARDS -->
+                        <div class="offer__scroll-container">
+                            <div class="offer__list">
+                                <section class="offer__list-item">
+                                    <!-- CAPA 1 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card1">
+                                            <img src="./styles/capas_/Frame 1.png" alt="" />
+                                            <span>Boas festas</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 2 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card2">
+                                            <img src="./styles/capas_/Frame 2.png" alt="">
+                                            <span>Pop</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 3 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card3">
+                                            <img src="./styles/capas_/Frame 3.png" alt="">
+                                            <span>Pop</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 4 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card4">
+                                            <img src="./styles/capas_/Frame 4.png" alt="">
+                                            <span>Creators</span>
+                                        </div>
+                                    </a>
+                        
+                                    <!-- CAPA 5 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card5">
+                                            <img src="./styles/capas_/Frame 5.png" alt="">
+                                            <span>Gym playlist</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 6 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card6">
+                                            <img src="./styles/capas_/Frame 6.png" alt="">
+                                            <span>Podcasts</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 7 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card7">
+                                            <img src="./styles/capas_/Frame 7.png" alt="">
+                                            <span>Friends Party</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 8 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card8">
+                                            <img src="./styles/capas_/Frame 8.png" alt="">
+                                            <span>Kids Party</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 9 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card9">
+                                            <img src="./styles/capas_/Frame 9.png" alt="">
+                                            <span>Coffe Time</span>
+                                        </div>
+                                    </a>
+                    
+                                    <!-- CAPA 10 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card10">
+                                            <img src="./styles/capas_/Frame 10.png" alt="">
+                                            <span>Rock This</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 11 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card11">
+                                            <img src="./styles/capas_/Frame 11.png" alt="">
+                                            <span>Rock</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 12 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card12">
+                                            <img src="./styles/capas_/Frame 12.png" alt="">
+                                            <span>Jazz</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 13 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card13">
+                                            <img src="./styles/capas_/Frame 13.png" alt="">
+                                            <span>Indie</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 14 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card14">
+                                            <img src="./styles/capas_/Frame 14.png" alt="">
+                                            <span>Novas Bandas</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 15 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card15">
+                                            <img src="./styles/capas_/Frame 15.png" alt="">
+                                            <span>For Kids</span>
+                                        </div>
+                                    </a>
+
+                                    <!-- CAPA 16 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card16">
+                                            <img src="./styles/capas_/Frame 16.png" alt="">
+                                            <span>Beach Time</span>
+                                        </div>
+                                    </a>
+
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="result-artist" class="hidden">
+                        <div class="grid-container">
+                            <div class="artist-card" id="">
+                                <div class="card-img">
+                                    <img id="artist-img" class="artist-img" />
+                                    <div class="play">
+                                        <span class="fa fa-solid fa-play"></span>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <a title="Foo Fighters" class="vst" href=""></a>
+                                    <span class="artist-name" id="artist-name"></span>
+                                    <span class="artist-categorie">Artista</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+</body>
+</html>

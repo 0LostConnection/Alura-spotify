@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "imersao_front-end",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "imersao_front-end"
+	}
+}
