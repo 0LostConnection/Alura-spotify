@@ -16,7 +16,7 @@ function displayResults(result) {
 
     result.forEach(element => {
         artistName.innerText = element.name;
-        artistImage.src = element.urlImg;
+        artistImage.src = element.imgURL;
     });
 
     resultArtist.classList.remove('hidden');
